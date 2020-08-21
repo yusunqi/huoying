@@ -1,0 +1,218 @@
+.wrap {
+    width: 1190px;
+    height: 100%;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.zt_wrap {
+    width: 1190px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.mr_box {
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 60px;
+}
+
+/**/
+#ming_ren {
+    width: 560px;
+    height: 200px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    background-image: url("../images/mingren.png");
+    background-position: 100px 0;
+    background-size: auto;
+    box-shadow: 0 0 10px #eeeeee;
+}
+
+@keyframes lwz {
+    from {
+        background-position: 100px 0;
+    }
+    to {
+        background-position: 100px -3072px;
+    }
+}
+
+#ml:checked ~ #ming_ren{
+    animation: lwz 2s steps(16) infinite;
+}
+
+.all_box {
+    width: 560px;
+    height: 200px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #eee;
+}
+.all_box1 {
+    width: 1170px;
+    height: 200px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #eee;
+}
+
+/**/
+#ming_ren1 {
+    background-image: url("../images/mingren1.png");
+    background-position: 0 50px;
+    background-size: auto;
+}
+
+@keyframes lwz1 {
+    from {
+        background-position: 0 50px;
+    }
+    to {
+        background-position: 0 -4558px;
+    }
+}
+
+#ml1:checked ~ #ming_ren1{
+    animation: lwz1 2s steps(24) infinite;
+}
+
+/**/
+#ming_ren2 {
+    background-image: url("../images/mingren2.png");
+    background-size: auto;
+}
+
+@keyframes lwz2 {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -2880px;
+    }
+}
+
+#ml2:checked ~ #ming_ren2{
+    animation: lwz2 2s steps(15) infinite;
+}
+/**/
+#ming_ren3 {
+    background-image: url("../images/mingren3.png");
+    background-size: 400px auto;
+    background-position: 0 50px;
+}
+
+@keyframes lwz3 {
+    from {
+        background-position: 0 50px;
+    }
+    to {
+        background-position: 0 -10510px;
+    }
+}
+
+#ml3:checked ~ #ming_ren3{
+    animation: lwz3 2s steps(55) infinite;
+}
+
+/**/
+#ming_ren4 {
+    background-image: url("../images/mingren4.png");
+    background-size: 250px auto;
+}
+
+@keyframes lwz4 {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -4608px;
+    }
+}
+
+#ml4:checked ~ #ming_ren4{
+    animation: lwz4 2s steps(24) infinite;
+}
+
+
+/**/
+#zuo_zhu {
+    background-image: url("../images/zuozhu.png");
+    background-size: 455px auto;
+    background-position: 100px 50px;
+}
+@keyframes zuozhu {
+    from {
+        background-position: 100px 50px;
+    }
+    to {
+        background-position: 100px -6439px;
+    }
+}
+
+#zz:checked ~ #zuo_zhu{
+    animation: zuozhu 2s steps(26) infinite;
+}
+
+/**/
+
+#zuo_zhu2 {
+    background-image: url("../images/zuozhu2.png");
+    background-size: 960px auto;
+    background-position: 100px 0;
+}
+@keyframes zuozhu2 {
+    from {
+        background-position: 100px 0;
+    }
+    to {
+        background-position: 100px -4416px;
+    }
+}
+
+#zz2:checked ~ #zuo_zhu2{
+    animation: zuozhu2 2s steps(23) infinite;
+}
+/**/
+#zuo_zhu3 {
+    background-image: url("../images/zuozhu3.png");
+    background-size: 1152px auto;
+    background-position: 100px 50px;
+}
+@keyframes zuozhu3 {
+    from {
+        background-position: 100px 50px;
+    }
+    to {
+        background-position: 100px -2945px;
+    }
+}
+
+#zz3:checked ~ #zuo_zhu3{
+    animation: zuozhu3 2s steps(13) infinite;
+}
+
+
+
+/**/
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
